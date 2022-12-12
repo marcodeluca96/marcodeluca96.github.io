@@ -33,3 +33,70 @@ export const portfolioData = [
     demo: 'url',
   },
 ];
+
+export const aboutData = {
+  firstTitle: 'Esperienza',
+  firstDesc: '3+ Anni',
+  secondTitle: 'Lavorato con',
+  secondDesc: '2+ Team',
+  thirdTitle: 'Aiutato a sviluppare',
+  thirdDesc: '3+ Progetti',
+  descrizione: 'description',
+};
+
+// level - beginner,good,expert
+export const experienceData = [
+  {
+    id: 1,
+    title: 'Frontend Development',
+    skills: [
+      {
+        id: 1,
+        title: 'HTML',
+        level: 'Expert',
+      },
+      {
+        id: 2,
+        title: 'CSS',
+        level: 'expert',
+      },
+      {
+        id: 3,
+        title: 'JavaScript',
+        level: 'Expert',
+      },
+
+      {
+        id: 4,
+        title: 'React',
+        level: 'Expert',
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Backend Development',
+    skills: [
+      {
+        id: 1,
+        title: 'Java',
+        level: 'Expert',
+      },
+      {
+        id: 2,
+        title: 'MySql',
+        level: 'Expert',
+      },
+      {
+        id: 3,
+        title: 'Spring Boot',
+        level: 'Expert',
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Others',
+    skills: [],
+  },
+];
