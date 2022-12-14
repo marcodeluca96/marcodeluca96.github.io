@@ -58,7 +58,7 @@ export const experienceData = [
       {
         id: 2,
         title: 'CSS',
-        level: 'expert',
+        level: 'Expert',
       },
       {
         id: 3,
@@ -84,7 +84,7 @@ export const experienceData = [
       },
       {
         id: 2,
-        title: 'MySql',
+        title: 'SQL',
         level: 'Expert',
       },
       {
@@ -94,9 +94,51 @@ export const experienceData = [
       },
     ],
   },
+  // {
+  //   id: 3,
+  //   title: 'Others',
+  //   skills: [],
+  // },
+];
+
+export const servicesData = [
   {
-    id: 3,
-    title: 'Others',
-    skills: [],
+    title: 'Web Development',
+    tag: [
+      'REST API in Java Spring Boot',
+      'JHipster',
+      'SQL Store Procedure',
+      'React components',
+      'CSS Design',
+    ],
+  },
+  {
+    title: 'Altre competenze IT',
+    tag: [
+      'Pacchetto Office',
+      'Photoshop',
+      'Assemblaggio PC',
+      'Windows/Linux',
+      'Reti LAN',
+    ],
+  },
+  {
+    title: 'Hobby',
+    tag: [
+      'Fotografia',
+      'Video Editing',
+      'Videogames',
+      'Film',
+      'Tecnologia',
+      'Natura',
+    ],
   },
 ];
+
+export const contactData = {
+  email: 'delucamarco.96@hotmail.it',
+  instagram: {
+    user: 'marcodeluca.96',
+    link: 'https://www.instagram.com/marcodeluca.96/',
+  },
+};

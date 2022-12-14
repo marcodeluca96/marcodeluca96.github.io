@@ -40,6 +40,14 @@
   color: var(--color-primary);
 }
 
+.experience__cv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+}
+
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =============*/
 
 @media screen and (max-width: 1024px) {

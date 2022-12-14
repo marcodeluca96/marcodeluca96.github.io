@@ -2,6 +2,7 @@ import React from 'react';
 import './experience.css';
 import { BsPatchCheckFill } from 'react-icons/bs';
 import { experienceData } from '../../assets/data';
+import CV from '../../assets/cv.pdf';
 
 const Experience = () => {
   return (
@@ -29,6 +30,9 @@ const Experience = () => {
             );
           })}
       </div>
+      <a href={CV} download className='text-light experience__cv '>
+        Scarica il mio Curriculum per l'esperienza completa
+      </a>
     </section>
   );
 };

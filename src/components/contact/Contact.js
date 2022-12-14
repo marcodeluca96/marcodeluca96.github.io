@@ -3,6 +3,7 @@ import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { TbBrandTelegram } from 'react-icons/tb';
+import { contactData } from '../../assets/data';
 
 const Contact = () => {
   return (
@@ -14,14 +15,14 @@ const Contact = () => {
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>marco@gmail.com</h5>
-            <a href='malito:sa'>Send Email</a>
+            <h5>{contactData.email}</h5>
+            <a href={`malito:${contactData.email}`}>Send Email</a>
           </article>
           <article className='contact__option'>
             <AiOutlineInstagram className='contact__option-icon' />
             <h4>Instagram</h4>
-            <h5>marcodeluca.96</h5>
-            <a href='ksjad'>Instagram</a>
+            <h5>{contactData.instagram.user}</h5>
+            <a href={contactData.instagram.link}>Instagram</a>
           </article>
           <article className='contact__option'>
             <TbBrandTelegram className='contact__option-icon' />

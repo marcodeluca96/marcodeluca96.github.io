@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
         {portfolioData.map((item) => {
           return (
-            <article className='portfolio__item'>
+            <article key={item.title} className='portfolio__item'>
               <div className='portfolio__item-image'>
                 {/* eslint-disable-next-line */}
                 <img src={item.image} alt='' />
