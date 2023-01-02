@@ -1,14 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.650ac8f8.css",
-    "main.js": "/static/js/main.6f40d3e5.js",
-    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "main.css": "/static/css/main.2f2f8271.css",
+    "main.js": "/static/js/main.5fcf4873.js",
+    "static/media/me-about.png": "/static/media/me-about.5b33c40858786c485eb8.png",
+    "static/media/me.png": "/static/media/me.3b2c98277b902ddc4fea.png",
+    "static/media/fantamarvel_logo.jpg": "/static/media/fantamarvel_logo.ff0e4078b8118d851546.jpg",
+    "static/media/chatroom.png": "/static/media/chatroom.b7ea24986df0490c578b.png",
+    "static/media/cv.pdf": "/static/media/cv.4153eab9df7393501eeb.pdf",
+    "static/media/tris.png": "/static/media/tris.b67ffeaddbbd0a7253ce.png",
+    "static/media/impiccato.png": "/static/media/impiccato.58bbe3123e756a21d342.png",
+    "static/media/todoapp.png": "/static/media/todoapp.371ee56a7179d11c6981.png",
+    "static/media/Mars.otf": "/static/media/Mars.b18b7ce9a416fa66828c.otf",
     "index.html": "/index.html",
-    "main.650ac8f8.css.map": "/static/css/main.650ac8f8.css.map",
-    "main.6f40d3e5.js.map": "/static/js/main.6f40d3e5.js.map"
+    "main.2f2f8271.css.map": "/static/css/main.2f2f8271.css.map",
+    "main.5fcf4873.js.map": "/static/js/main.5fcf4873.js.map"
   },
   "entrypoints": [
-    "static/css/main.650ac8f8.css",
-    "static/js/main.6f40d3e5.js"
+    "static/css/main.2f2f8271.css",
+    "static/js/main.5fcf4873.js"
   ]
 }
